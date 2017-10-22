@@ -1,0 +1,34 @@
+/*cambiar el tipo de letra*/
+body{
+  font-family: sans-serif;
+}
+
+nav{
+  /*outline: 1px solid yellow;*/
+}
+ul{
+  /*outline: 1px solid blue;*/
+  list-style: none;/*los puntos los quita*/
+  padding: 0;
+  margin: 0;
+  background: #2e2e2a;
+  line-height: 40px;/*agranda la linea*/
+  overflow: auto;/*devuelve el contexto del bloque*/
+}
+li{
+  /*outline: 1px solid red;*/
+  width: 100px;/*ancho */
+/*  display: inline-block;*//*lo pone en una sola linea una al costado de otra*/
+  text-align: center;/*centrara cada li*/
+  float: left;/*pone elementos flotados*/
+
+}
+a{/*outline: 1px solid green;*/
+text-decoration: none;/*quita la linea*/
+display: block;/*ocupe el espacio disponible de la etiqueta li*/
+color: #fff;}
+/*hara al pasar el mause en cada li cambiara de color*/
+a:hover{
+  background: #f9a91a;
+  color: #000;
+}
